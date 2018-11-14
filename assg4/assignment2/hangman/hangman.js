@@ -30,7 +30,7 @@ function guess(charac){
 		var rep = "";
 
 		if(charac == ""){
-			alert("Please enter a lowercase letter!");
+			alert("Please enter a letter!");
 			return;
 		}else if(useArray.indexOf(charac) ==-1){
 			useArray.push(charac);
